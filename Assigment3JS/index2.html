@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="signupBtn">
+    <button>Signup</button>
+</div>
+    <script src="app2.js"></script>
+    <script>
+        var car ={
+            make:"Toyota",
+            model:"Brv",
+            year:"2023",
+            color:["Black","White","Red"],
+            hybrid:true,
+            drive:function(){
+                console.log("Drive Car")
+            },
+            stop:function(){
+                console.log("Stop Car")
+            }
+        }
+        console.log(car.make)
+        console.log(car.color[0])
+        car.drive()
+        car.stop()
+    </script>
+</body>
+</html>
